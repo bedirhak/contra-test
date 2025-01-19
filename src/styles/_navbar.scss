@@ -1,0 +1,101 @@
+@use "colors" as *;
+
+body {
+  padding-top: 120px;
+}
+
+.cg-logo {
+  width: 200px;
+}
+
+.cg-navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+  padding: 20px 0;
+  top: 0;
+}
+
+.cg-navbar-container {
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0px 20px;
+}
+
+.cg-navbar-link > div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.cg-nav-link {
+  color: $main-red;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.cg-nav-link:hover {
+  color: $main-red;
+  opacity: 1;
+}
+
+.cg-nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; // Alt çizgi için yer açmak amacıyla padding ekleyin
+  overflow: hidden; // Taşan içeriği gizlemek için
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: $main-red; // Çizgi rengini ayarlayın
+    transition: width 0.3s ease-in-out; // Geçiş süresini ayarlayın
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: $main-red; // Arka plan rengini ayarlayın
+    z-index: -1; // Arka planı metnin arkasına yerleştirin
+    transition: width 0.3s ease-in-out; // Geçiş süresini ayarlayın
+  }
+
+  &:hover {
+    color: white; // Hover durumunda yazı rengini beyaz yapın
+  }
+
+  &:hover::after {
+    width: 100%; // Hover durumunda çizginin genişliğini %100 yapın
+  }
+
+  &:hover::before {
+    width: 100%; // Hover durumunda arka planın genişliğini %100 yapın
+    left: 0; // Arka planın soldan başlamasını sağlayın
+    right: auto; // Sağdan başlamasını iptal edin
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cg-logo {
+    width: 150px;
+  }
+
+  .cg-navbar {
+    padding: 20px;
+  }
+}

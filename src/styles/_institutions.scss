@@ -1,0 +1,43 @@
+.cg-institutions-parts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+
+  .cg-institution {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 450px;
+    min-width: 280px;
+    max-height: 100%;
+    max-width: 33%;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    background-size: cover;
+
+    & > span {
+      display: inline-block;
+      font-size: 2rem;
+      color: white;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      padding: 15px 25px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      bottom: 50px;
+      width: 85%;
+      font-family: "Rubik Vinyl", serif;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cg-institutions-parts .cg-institution > span {
+    font-size: 1.5rem !important;
+    padding: 10px 15px;
+    bottom: 10px;
+  }
+}

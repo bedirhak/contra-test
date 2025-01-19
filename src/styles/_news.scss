@@ -1,0 +1,26 @@
+@use "colors" as *;
+
+.card {
+  height: 100%;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    & > div:last-of-type {
+      margin-top: auto;
+    }
+  }
+}
+
+.cg-new {
+  min-width: 320px;
+}
+
+@media screen and (min-width: 980px) {
+  .cg-news-container {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+}
