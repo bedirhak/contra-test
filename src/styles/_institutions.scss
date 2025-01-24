@@ -29,7 +29,6 @@
       background-color: rgba(0, 0, 0, 0.4);
       bottom: 50px;
       width: 85%;
-      font-family: "Rubik Vinyl", serif;
     }
   }
 }
@@ -39,5 +38,30 @@
     font-size: 1.5rem !important;
     padding: 10px 15px;
     bottom: 10px;
+  }
+}
+
+.cg-quotation {
+  border-left: 4px solid $main-red;
+  padding: 25px 50px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cg-quotation-icon {
+  font-size: 56px;
+  line-height: 56px;
+  color: $main-red;
+}
+
+.cg-institutional-page {
+  p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
   }
 }

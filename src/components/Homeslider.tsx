@@ -15,7 +15,7 @@ const slides: Slide[] = [
   {
     image: slider1, // Görsel URL'lerini değiştirin
     title:
-      "Contra Grup, Petrol, Sanayii Yağları ve Savunma Sanayii Alanlarında Tedarik Çözümleri Sunmaktadır",
+      "Contra Corporate, Petrol, Sanayii Yağları ve Savunma Sanayii Alanlarında Tedarik Çözümleri Sunmaktadır",
     description:
       "Tedarikçileri ve sektörden aldığı güçle enerji ve savunma sektörlerine kritik katkılar sağlamaktadır. Sektöründeki uzmanlığıyla müşterilerine yüksek kaliteli ve güvenilir ürünler sunmaktadır.",
     buttonText: "Keşvet",
@@ -30,7 +30,7 @@ const slides: Slide[] = [
   {
     image: slider3, // Görsel URL'lerini değiştirin
     title:
-      "Contra Grup, Azerbaycan'da ve Kafkasya bölgesinde ilk motor ve endüstriyel yağ üreticisi olan Technol ile çalışmaktadır.",
+      "Contra Corporate, Azerbaycan'da ve Kafkasya bölgesinde ilk motor ve endüstriyel yağ üreticisi olan Technol ile çalışmaktadır.",
     description:
       "Günlük 140 ton, yıllık 50 bin ton üretim kapasitesine sahip Technol şirketinde, üretim sürecinin düzenlenmesi amacıyla Alman yapımı ekipmanlar kurulmuş ve üretim sürecinin tamamen otomasyonu gerçekleştirilmiştir.",
     buttonText: "Keşvet",
@@ -68,10 +68,9 @@ const FullPageHomeSlider: React.FC = () => {
                 padding: "20px",
               }}
             >
-              <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>
-                {slide.title}
-              </h1>
+              <h1 className="cg-slider-heading">{slide.title}</h1>
               <p
+                className="cg-slider-desc"
                 style={{
                   fontSize: "1.2rem",
                   maxWidth: "800px",

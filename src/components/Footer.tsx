@@ -38,15 +38,15 @@ const Footer = () => {
               <NavLink to="/home" className="cg-color-red d-block">
                 Anasayfa
               </NavLink>
-              <NavLink to="/about" className="cg-color-red d-block">
+              <NavLink to="/institutional" className="cg-color-red d-block">
                 Kurumsal
               </NavLink>
-              <NavLink to="/services" className="cg-color-red d-block">
+              <NavLink to="/capabilities" className="cg-color-red d-block">
                 Faaliyet Alanları
               </NavLink>
-              <NavLink to="/contact" className="cg-color-red d-block">
+              {/* <NavLink to="/contact" className="cg-color-red d-block">
                 Arge Inovasyon
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/contact" className="cg-color-red d-block">
                 İletişim
               </NavLink>
@@ -63,7 +63,7 @@ const Footer = () => {
                         </div>
                         <span className="cg-color-red">Telefon:</span>
                       </div>
-                      <span>+90 212 123 45 67</span>
+                      <a href="tel:+905320540584">+(90) 532 054 05 84</a>
                     </p>
                     <p>
                       <div className="d-flex align-items-center gap-2">
@@ -120,10 +120,10 @@ const Footer = () => {
         style={{ fontSize: "16px" }}
       >
         <div>
-          Contra Grup Petrol Madeni Yağ Ticaret A.Ş. Kurumsal Websitesinin Tüm
+          Contra Group Petrol Madeni Yağ Ticaret A.Ş. Kurumsal Websitesinin Tüm
           Hakları Saklıdır.
         </div>
-        <div>© 2024 - Contra Corporate</div>
+        <div>© 2024 - Contra Group</div>
       </div>
     </>
   );

@@ -202,6 +202,12 @@ abbr[title] {
   background-color: $main-red !important;
 }
 
+@media screen and (max-width: 500px) {
+  .cg-mobile-d-none {
+    display: none;
+  }
+}
+
 .cg-buttons {
   text-align: center;
   width: 100%;

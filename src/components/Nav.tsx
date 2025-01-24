@@ -25,10 +25,10 @@ const ContraNavBar = () => {
             <Nav.Link className="cg-nav-link" href="capabilities">
               Faaliyet Alanları
             </Nav.Link>
-            <Nav.Link className="cg-nav-link" href="innovation">
+            {/* <Nav.Link className="cg-nav-link" href="innovation">
               Arge İnovasyon
-            </Nav.Link>
-            <Nav.Link className="cg-nav-link" href="home">
+            </Nav.Link> */}
+            <Nav.Link className="cg-nav-link" href="contact">
               İletişim
             </Nav.Link>
             {/* <Nav.Link className="cg-nav-link" href="home">
