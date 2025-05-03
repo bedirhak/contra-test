@@ -3,10 +3,10 @@ import WorldMap from "react-svg-worldmap";
 const Cities = () => {
   const data = [
     { country: "ru", value: "- Moskova & St. Petersburg" }, // russia
-    { country: "cn", value: "- Hong Kong" }, // china
     { country: "tr", value: "- İstanbul & Ankara" }, // turkey
     { country: "az", value: "- Bakü" }, // azerbaijan
     { country: "my", value: "- Kuala Lumpur" }, // malaysia
+    { country: "hk", value: "- Hong Kong" }, // hong kong
   ];
 
   return (
