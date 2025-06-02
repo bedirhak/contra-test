@@ -1,12 +1,15 @@
 import Container from "../../components/Container";
 import Values from "../../components/Values";
 import Institutions from "../../components/Institutions";
+import { useTranslation } from 'react-i18next';
 
 const Institutional = () => {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <div className="cg-institutional-page">
-        <h1 className="cg-part-title mt-3">Hakkımızda</h1>
+        <h1 className="cg-part-title mt-3">{t('about')}</h1>
         <p className="mb-3">
           <span className="cg-mobile-d-none">&nbsp;&nbsp;&nbsp;&nbsp;</span>{" "}
           Hakkımızda Şirketimiz, müşterilerimize kaliteli ve güvenilir yağ

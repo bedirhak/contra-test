@@ -9,10 +9,12 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  
   return (
     <>
       <footer className="cg-footer">
@@ -25,35 +27,29 @@ const Footer = () => {
                 className="mb-2 cg-footer-image"
               />
               <p className="cg-footer-desc">
-                &nbsp;&nbsp;&nbsp;&nbsp;Petrol, yağ ve savunma sanayii
-                alanlarında tedarik çözümleri sunan şirketimiz, sektördeki
-                uzmanlığıyla enerji ve savunma sektörlerine kritik katkılar
-                sağlamaktadır. Özellikle, Azerbaycan ve Kafkasya bölgesinin ilk
-                motor ve endüstriyel yağ üreticisi olan Technol gibi öncü
-                tedarikçilerle iş birliği yaparak, müşterilerimize yüksek
-                kaliteli ve güvenilir ürünler sunmaktayız.
+                &nbsp;&nbsp;&nbsp;&nbsp;{t('footer-text')}
               </p>
             </div>
             <div className="cg-footer-navs">
               <NavLink to="/home" className="cg-color-red d-block">
-                Anasayfa
+                {t('menu-home')}
               </NavLink>
               <NavLink to="/institutional" className="cg-color-red d-block">
-                Kurumsal
+                {t('menu-institutional')}
               </NavLink>
               <NavLink to="/capabilities" className="cg-color-red d-block">
-                Faaliyet Alanları
+                {t('menu-capabilities')}
               </NavLink>
               {/* <NavLink to="/contact" className="cg-color-red d-block">
                 Arge Inovasyon
               </NavLink> */}
               <NavLink to="/contact" className="cg-color-red d-block">
-                İletişim
+                {t('menu-contact')}
               </NavLink>
             </div>
             <div>
               <div className="cg-footer-contact">
-                <h5 className="cg-color-red">İletişim</h5>
+                <h5 className="cg-color-red">{t('menu-contact')}</h5>
                 <div>
                   <div>
                     <p>

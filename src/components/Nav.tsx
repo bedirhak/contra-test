@@ -3,9 +3,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../assets/images/contra-logo.png";
+import { useTranslation } from 'react-i18next';
+import Language from "./Language";
 
 const ContraNavBar = () => {
+  const { t } = useTranslation();
+
+
   return (
+    <>
     <Navbar expand="lg" className="cg-navbar ">
       <Container className="cg-navbar-container">
         <Navbar.Brand href="/">
@@ -17,19 +23,19 @@ const ContraNavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="cg-navbar-link">
           <Nav className="me-auto">
             <Nav.Link className="cg-nav-link" href="/">
-              Ana Sayfa
+              {t('menu-home')}
             </Nav.Link>
             <Nav.Link className="cg-nav-link" href="institutional">
-              Kurumsal
+              {t('menu-institutional')}
             </Nav.Link>
             <Nav.Link className="cg-nav-link" href="capabilities">
-              Faaliyet Alanları
+               {t('menu-capabilities')}
             </Nav.Link>
             {/* <Nav.Link className="cg-nav-link" href="innovation">
               Arge İnovasyon
             </Nav.Link> */}
             <Nav.Link className="cg-nav-link" href="contact">
-              İletişim
+              {t('menu-contact')}
             </Nav.Link>
             {/* <Nav.Link className="cg-nav-link" href="home">
               Medya
@@ -47,8 +53,13 @@ const ContraNavBar = () => {
             </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
+        <Language />
+
       </Container>
     </Navbar>
+   
+    </>
+
   );
 };
 
