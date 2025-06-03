@@ -57,7 +57,7 @@ const Footer = () => {
                         <div>
                           <FaPhone className="cg-color-red" />
                         </div>
-                        <span className="cg-color-red">Telefon:</span>
+                        <span className="cg-color-red">{t('phone')}:</span>
                       </div>
                       <a href="tel:+905320540584">+(90) 532 054 05 84</a>
                     </p>
@@ -66,7 +66,7 @@ const Footer = () => {
                         <div>
                           <FaEnvelope className="cg-color-red" />
                         </div>
-                        <span className="cg-color-red">E-Mail:</span>
+                        <span className="cg-color-red">{t('email')}:</span>
                       </div>
                       <span>executive@contracorporate.com</span>
                     </p>
@@ -76,7 +76,7 @@ const Footer = () => {
                           <FaAddressBook className="cg-color-red" />
                         </div>
                         <span className="cg-color-red align-self-start">
-                          Adres:
+                          {t('address')}:	
                         </span>
                       </div>
                       <span>
@@ -116,8 +116,7 @@ const Footer = () => {
         style={{ fontSize: "16px" }}
       >
         <div>
-          Contra Group Petrol Madeni Yağ Ticaret A.Ş. Kurumsal Websitesinin Tüm
-          Hakları Saklıdır.
+          {t('rights')}
         </div>
         <div>© 2024 - Contra Group</div>
       </div>

@@ -6,7 +6,102 @@
   "menu-capabilities": "Faaliyet Alanları",
   "menu-contact": "İletişim",
   "footer-text": "Petrol, yağ ve savunma sanayii alanlarında tedarik çözümleri sunan şirketimiz, sektördeki uzmanlığıyla enerji ve savunma sektörlerine kritik katkılar sağlamaktadır. Özellikle, Azerbaycan ve Kafkasya bölgesinin ilk motor ve endüstriyel yağ üreticisi olan Technol gibi öncü tedarikçilerle iş birliği yaparak, müşterilerimize yüksek kaliteli ve güvenilir ürünler sunmaktayız.",
-  
+    
+  "slider": [
+    {
+      "title": "Contra Corporate, Petrol, Sanayii Yağları ve Savunma Sanayii Alanlarında Tedarik Çözümleri Sunmaktadır",
+      "description": "Tedarikçileri ve sektörden aldığı güçle enerji ve savunma sektörlerine kritik katkılar sağlamaktadır. Sektöründeki uzmanlığıyla müşterilerine yüksek kaliteli ve güvenilir ürünler sunmaktadır.",
+      "buttonText": "Keşfet"
+    },
+    {
+      "title": "Sürdürülebilirlik ve Çevre Dostu Ürünler",
+      "description": "Üretimlerinde sürdürülebilirlik ve çevre dostu ürünler kullanarak, müşterilerine yüksek kaliteli ve güvenilir ürünler sunmaktadır.",
+      "buttonText": "Keşfet"
+    },
+    {
+      "title": "Contra Corporate, Azerbaycan'da ve Kafkasya bölgesinde ilk motor ve endüstriyel yağ üreticisi olan Technol ile çalışmaktadır.",
+      "description": "Günlük 140 ton, yıllık 50 bin ton üretim kapasitesine sahip Technol şirketinde, üretim sürecinin düzenlenmesi amacıyla Alman yapımı ekipmanlar kurulmuş ve üretim sürecinin tamamen otomasyonu gerçekleştirilmiştir.",
+      "buttonText": "Keşfet"
+    }
+  ],
+   "banners": [
+    {
+      "title": "Full Sentetik",
+      "description": "Ağır Ticari Motor Yağı",
+      "buttonText": "Daha Fazla"
+    },
+    {
+      "title": "Gras",
+      "description": "Gras Yağları",
+      "buttonText": "Daha Fazla"
+    },
+    {
+      "title": "Hibrit",
+      "description": "Teknoloji Hibrit Sentetik Motor Yağı",
+      "buttonText": "Daha Fazla"
+    },
+    {
+      "title": "Bronz",
+      "description": "Ticari Araç Binek Yağları",
+      "buttonText": "Daha Fazla"
+    },
+    {
+      "title": "Pro",
+      "description": "Ağır Yük Otomobil Yağları",
+      "buttonText": "Daha Fazla"
+    },
+    {
+      "title": "Turbo Dizel",
+      "description": "Turbo Dizel Motor Yağı",
+      "buttonText": "Daha Fazla"
+    }
+  ],
   "about":"Hakkımızda",
-  "about1": "Hakkımızda Şirketimiz, müşterilerimize kaliteli ve güvenilir yağ çözümleri sunma misyonuyla faaliyet göstermektedir. Bu hedef doğrultusunda, dünya standartlarında üretim yapan Technol gibi alanında öncü şirketlerle iş birliği yapıyoruz. Yıllık 50 bin ton üretim kapasitesine sahip olan Technol, modern tesislerinde yüksek standartlarda üretim gerçekleştirmektedir ve bu iş birliğimiz, müşterilerimize en iyi ürünleri sunmamıza olanak tanımaktadır."
+  "about1": "Hakkımızda Şirketimiz, müşterilerimize kaliteli ve güvenilir yağ çözümleri sunma misyonuyla faaliyet göstermektedir. Bu hedef doğrultusunda, dünya standartlarında üretim yapan Technol gibi alanında öncü şirketlerle iş birliği yapıyoruz. Yıllık 50 bin ton üretim kapasitesine sahip olan Technol, modern tesislerinde yüksek standartlarda üretim gerçekleştirmektedir ve bu iş birliğimiz, müşterilerimize en iyi ürünleri sunmamıza olanak tanımaktadır.",
+  "company" : "Contra Corporate",
+  "ihracat": "İhracat",
+  "product-type" : "Ürün Çeşidi",
+  "yurt-ici-istirak": "Yurt İçi İştirakler",
+  "yurt-disi-istirak": "Yurt Dışı İştirakler",
+  "workers": "Çalışanlar",
+  "ciro": "Ciro",
+  "home-title2": "Faaliyet Gösterdiğimiz Ülke ve Şehirler",
+  "home-title3" : "Faaliyet Alanları",
+  "petrol": "Petrol",
+  "savunma": "Savunma Sanayii",
+  "industrial-oil": "Endüstriyel Yağlar",
+  "phone": "Telefon",
+  "email": "E-posta",
+  "address": "Adres",
+  "rights": "Contra Group Petrol Madeni Yağ Ticaret A.Ş. Kurumsal Websitesinin Tüm Hakları Saklıdır.",
+   "institutional": {
+    "title": "Hakkımızda",
+    "paragraphs": [
+      "Şirketimiz, müşterilerimize kaliteli ve güvenilir yağ çözümleri sunma misyonuyla faaliyet göstermektedir. Bu hedef doğrultusunda, dünya standartlarında üretim yapan Technol gibi alanında öncü şirketlerle iş birliği yapıyoruz. Yıllık 50 bin ton üretim kapasitesine sahip olan Technol, modern tesislerinde yüksek standartlarda üretim gerçekleştirmektedir ve bu iş birliğimiz, müşterilerimize en iyi ürünleri sunmamıza olanak tanımaktadır.",
+      "Technol, Amerika, İngiltere, Almanya ve Japonya gibi ülkelerden temin ettiği son teknoloji cihazlarla donatılmış uluslararası akredite laboratuvarı (ISO 17025:2017) sayesinde, yağların geniş bir yelpazede hassas analizlerini gerçekleştirebilmektedir. Motor ve endüstriyel yağlar, Infineum, Chevron ve Afton gibi dünya çapında tanınan tedarikçilerden alınan yüksek kaliteli katkı maddeleri ile üretilmekte ve Amerikan Petrol Enstitüsü (API), Avrupa Otomobil Üreticileri Derneği (ACEA) standartlarına uygun olarak test edilmektedir. Ürünlerin kalitesini garanti altına almak için ISO 9001:2015, çevresel duyarlılığı artırmak için ISO 14001:2015 ve iş güvenliği için ISO 45001:2008 standartları uygulanmaktadır.",
+      "Technol ile gerçekleştirdiğimiz bu güçlü iş birliği sayesinde, binek araç ve kamyon yağlarından hidrolik sistem, kompresör ve jeneratör yağlarına; tarım, savunma, denizcilik ve metalurji sektörlerine kadar geniş bir ürün portföyünü müşterilerimize sunuyoruz. Ürünlerimiz, sadece yurtiçindeki müşterilerimizin ihtiyaçlarını karşılamakla kalmıyor, aynı zamanda Technol'ün yaklaşık 10 ülkeye gerçekleştirdiği ihracatlarla uluslararası pazarlarda da tercih ediliyor.",
+      "Ürün portföyümüzde, binek araç ve kamyon yağlarından hidrolik sistem, kompresör ve jeneratör yağlarına; tarım, savunma, denizcilik ve metalurji sektörlerine kadar yüzlerce farklı ürün bulunmaktadır. Yüksek kaliteli ürünlerimiz, kısa sürede müşterilerimizin güvenini kazanmış ve sadece yurtiçi pazarda değil, aynı zamanda yaklaşık 10 ülkeye ihracat yapılarak uluslararası pazarlarda da talep görmüştür.",
+      "Müşteri memnuniyetini ve sürdürülebilir kaliteyi öncelik kabul eden yaklaşımımızla, sektörün en iyi markalarını müşterilerimizle buluşturmaktan gurur duyuyoruz. Sizlere en iyi hizmeti sunmak için Technol gibi güçlü iş ortaklarımızla birlikte çalışmaya ve sürekli gelişime odaklanmaya devam ediyoruz."
+    ],
+    "missionTitle": "Misyonumuz",
+    "missionText": "Petrol, makineler ve ekipmanlarda kullanılan yağlar, sıvılar ve teknik hizmetlerin ihtiyaçlarını kapsamlı bir şekilde karşılayan profesyonel bir tedarikçi olmak ve Azerbaycan ile gelişmekte olan ülkelerde hizmet sunmak."
+  },
+   "values": {
+    "title": "Değerlerimiz",
+    "customer_oriented": {
+      "title": "Müşteri Odaklı",
+      "description": "Tüm ticaretlerimizde, müşterilerimizin ihtiyaçlarını en iyi şekilde karşılamak bizim için bir önceliktir..."
+    },
+    "professionalism": {
+      "title": "Profesyonellik",
+      "description": "Petrol ve sanayi yağları sektöründeki tecrübemizle, iş süreçlerimizi sürekli olarak geliştirmeyi..."
+    },
+    "innovation": {
+      "title": "İnovasyon",
+      "description": "Petrol ve sanayi yağları sektöründe yenilikçi bir yaklaşımla, müşterilerimize en modern ve etkili çözümleri sunmak için sürekli olarak kendimizi geliştiriyoruz..."
+    }
+  }
+
+
+
 }

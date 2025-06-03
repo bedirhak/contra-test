@@ -1,6 +1,7 @@
-// Component: ResponsiveBanner
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Container from "./Container";
+
 import banner1 from "../assets/images/homepage/banner-1.png";
 import banner2 from "../assets/images/homepage/banner-2.png";
 import banner3 from "../assets/images/homepage/banner-3.png";
@@ -11,43 +12,45 @@ import banner6 from "../assets/images/homepage/banner-6.png";
 const banners = [
   {
     src: banner1,
-    title: "Full Sentetik",
-    description: "Ağır Ticari Motor Yağı",
-    buttonText: "Learn More",
+    titleKey: "banners.0.title",
+    descriptionKey: "banners.0.description",
+    buttonKey: "banners.0.buttonText",
   },
   {
     src: banner2,
-    title: "Gras",
-    description: "Gras Yağları",
-    buttonText: "Learn More",
+    titleKey: "banners.1.title",
+    descriptionKey: "banners.1.description",
+    buttonKey: "banners.1.buttonText",
   },
   {
     src: banner3,
-    title: "Hibrit",
-    description: "Teknoloji Hibrit Sentetik Motor Yağı",
-    buttonText: "Learn More",
+    titleKey: "banners.2.title",
+    descriptionKey: "banners.2.description",
+    buttonKey: "banners.2.buttonText",
   },
   {
     src: banner4,
-    title: "Bronz",
-    description: "Ticari Araç Binek Yağları",
-    buttonText: "Learn More",
+    titleKey: "banners.3.title",
+    descriptionKey: "banners.3.description",
+    buttonKey: "banners.3.buttonText",
   },
   {
     src: banner5,
-    title: "Pro",
-    description: "Ağır Yük Otomobil Yağları",
-    buttonText: "Learn More",
+    titleKey: "banners.4.title",
+    descriptionKey: "banners.4.description",
+    buttonKey: "banners.4.buttonText",
   },
   {
     src: banner6,
-    title: "Turbo Dizel",
-    description: "Turbo Dizel Motor Yağı",
-    buttonText: "Learn More",
+    titleKey: "banners.5.title",
+    descriptionKey: "banners.5.description",
+    buttonKey: "banners.5.buttonText",
   },
 ];
 
 const ResponsiveBanner: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <div className="cg-banner-contents">
@@ -56,12 +59,15 @@ const ResponsiveBanner: React.FC = () => {
             <img
               className="cg-banner-content-image"
               src={banner.src}
-              alt="Land"
+              alt={t(banner.titleKey)}
             />
-            <h1 className="cg-banner-content-title">{banner.title}</h1>
+            <h1 className="cg-banner-content-title">{t(banner.titleKey)}</h1>
             <div className="cg-banner-content-description">
-              {banner.description}
+              {t(banner.descriptionKey)}
             </div>
+            {/* Eğer buton kullanacaksan bunu da açabilirsin:
+            <button>{t(banner.buttonKey)}</button>
+            */}
           </div>
         ))}
       </div>

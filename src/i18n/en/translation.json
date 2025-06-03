@@ -5,10 +5,106 @@
   "menu-institutional": "Institutional",
   "menu-capabilities": "Capabilities",
   "menu-contact": "Contact",
+
+
   "footer-text": "Our company provides supply solutions in the fields of petroleum, lubricants, and the defense industry, making critical contributions to the energy and defense sectors with its industry expertise. In particular, by collaborating with leading suppliers such as Technol — the first producer of engine and industrial oils in Azerbaijan and the Caucasus region — we offer our customers high-quality and reliable products.",
-  
-  
+   "slider": [
+    {
+      "title": "Contra Corporate Offers Supply Solutions in Petroleum, Industrial Lubricants and Defense Industry",
+      "description": "With the power of its suppliers and the sector, it makes critical contributions to the energy and defense sectors. It offers high-quality and reliable products to its customers with its expertise in the field.",
+      "buttonText": "Discover"
+    },
+    {
+      "title": "Sustainability and Eco-Friendly Products",
+      "description": "Using sustainable and eco-friendly products in its production processes, it offers high-quality and reliable products to its customers.",
+      "buttonText": "Discover"
+    },
+    {
+      "title": "Contra Corporate Works with Technol, the First Engine and Industrial Oil Producer in Azerbaijan and the Caucasus Region",
+      "description": "With a daily capacity of 140 tons and an annual capacity of 50,000 tons, Technol's production facility is equipped with German-made machinery and is fully automated.",
+      "buttonText": "Discover"
+    }
+  ],
+   "banners": [
+    {
+      "title": "Full Synthetic",
+      "description": "Heavy Duty Engine Oil",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Grease",
+      "description": "Grease Lubricants",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Hybrid",
+      "description": "Technology Hybrid Synthetic Engine Oil",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Bronze",
+      "description": "Commercial Vehicle Passenger Oils",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Pro",
+      "description": "Heavy Load Automotive Oils",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Turbo Diesel",
+      "description": "Turbo Diesel Engine Oil",
+      "buttonText": "Learn More"
+    }
+  ],
   "about":"About Us",
-  "about1": "About our Company, müşterilerimize kaliteli ve güvenilir yağ çözümleri sunma misyonuyla faaliyet göstermektedir. Bu hedef doğrultusunda, dünya standartlarında üretim yapan Technol gibi alanında öncü şirketlerle iş birliği yapıyoruz. Yıllık 50 bin ton üretim kapasitesine sahip olan Technol, modern tesislerinde yüksek standartlarda üretim gerçekleştirmektedir ve bu iş birliğimiz, müşterilerimize en iyi ürünleri sunmamıza olanak tanımaktadır."
+  "about1": "About our Company, müşterilerimize kaliteli ve güvenilir yağ çözümleri sunma misyonuyla faaliyet göstermektedir. Bu hedef doğrultusunda, dünya standartlarında üretim yapan Technol gibi alanında öncü şirketlerle iş birliği yapıyoruz. Yıllık 50 bin ton üretim kapasitesine sahip olan Technol, modern tesislerinde yüksek standartlarda üretim gerçekleştirmektedir ve bu iş birliğimiz, müşterilerimize en iyi ürünleri sunmamıza olanak tanımaktadır.",
+
+  "company" : "Contra Corporate",
+  "ihracat": "Export",
+  "product-type" : "Product Type",
+  "yurt-ici-istirak": "Domestic Participation",
+  "yurt-disi-istirak": "Foreign Participation",
+  "workers": "Employees",
+  "ciro": "Turnover",
+  "home-title2": "Countries and Cities We Operate In",
+  "home-title3" : "Fields of Operations",
+   "petrol": "Petroleum",
+  "savunma": "Defense Industry",
+  "industrial-oil": "Industrial Oils",
+   "phone": "Phone",
+  "email": "Email",
+  "address": "Address",
+  "rights": "All Rights Reserved by Contra Group Petroleum Mineral Oil Trade Inc. Corporate Website.",
+   "institutional": {
+    "title": "About Us",
+    "paragraphs": [
+      "Our company operates with the mission of providing our customers with high-quality and reliable oil solutions. In line with this goal, we collaborate with leading companies in the field such as Technol, which produces at world standards. Technol, with an annual production capacity of 50,000 tons, carries out production at high standards in its modern facilities, and this collaboration enables us to offer the best products to our customers.",
+      "Technol is equipped with an internationally accredited laboratory (ISO 17025:2017) featuring the latest technology devices sourced from countries such as the USA, UK, Germany, and Japan, enabling precise analysis of oils across a wide spectrum. Motor and industrial oils are produced using high-quality additives from globally recognized suppliers such as Infineum, Chevron, and Afton, and are tested according to the standards of the American Petroleum Institute (API) and the European Automobile Manufacturers Association (ACEA). ISO 9001:2015 is applied to ensure product quality, ISO 14001:2015 to enhance environmental sensitivity, and ISO 45001:2008 for occupational safety.",
+      "Thanks to our strong cooperation with Technol, we offer our customers a wide product portfolio ranging from passenger car and truck oils to hydraulic system, compressor, and generator oils, and to sectors such as agriculture, defense, maritime, and metallurgy. Our products not only meet the needs of domestic customers but are also preferred in international markets through Technol's exports to approximately 10 countries.",
+      "Our product portfolio includes hundreds of different products ranging from passenger car and truck oils to hydraulic system, compressor, and generator oils, and to sectors such as agriculture, defense, maritime, and metallurgy. Our high-quality products have quickly earned the trust of our customers and are in demand not only in the domestic market but also through exports to around 10 countries internationally.",
+      "With our approach that prioritizes customer satisfaction and sustainable quality, we are proud to bring together the best brands in the industry with our customers. We continue to work with strong partners like Technol and focus on continuous development to offer you the best service."
+    ],
+    "missionTitle": "Our Mission",
+    "missionText": "To be a professional supplier that comprehensively meets the needs for oils, fluids, and technical services used in petroleum, machinery, and equipment, and to provide services in Azerbaijan and developing countries."
+  },
+    "values": {
+    "title": "Our Values",
+    "customer_oriented": {
+      "title": "Customer-Oriented",
+      "description": "In all our operations, meeting the needs of our customers in the best way possible is our priority..."
+    },
+    "professionalism": {
+      "title": "Professionalism",
+      "description": "With our experience in the petroleum and industrial oils sector, we continuously strive to improve our business processes..."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "With an innovative approach in the petroleum and industrial oil sector, we are constantly improving ourselves to provide the most modern and effective solutions..."
+    }
+  }
+
+
+
 
 }

@@ -1,43 +1,43 @@
+
 import React from "react";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
+
 import slider1 from "../assets/images/homepage/slider1.jpg";
 import slider2 from "../assets/images/homepage/slider2.jpg";
 import slider3 from "../assets/images/homepage/slider3.jpg";
 
 interface Slide {
   image: string;
-  title: string;
-  description: string;
-  buttonText: string;
+  titleKey: string;
+  descriptionKey: string;
+  buttonKey: string;
 }
 
 const slides: Slide[] = [
   {
-    image: slider1, // Görsel URL'lerini değiştirin
-    title:
-      "Contra Corporate, Petrol, Sanayii Yağları ve Savunma Sanayii Alanlarında Tedarik Çözümleri Sunmaktadır",
-    description:
-      "Tedarikçileri ve sektörden aldığı güçle enerji ve savunma sektörlerine kritik katkılar sağlamaktadır. Sektöründeki uzmanlığıyla müşterilerine yüksek kaliteli ve güvenilir ürünler sunmaktadır.",
-    buttonText: "Keşvet",
+    image: slider1,
+    titleKey: "slider.0.title",
+    descriptionKey: "slider.0.description",
+    buttonKey: "slider.0.buttonText",
   },
   {
-    image: slider2, // Görsel URL'lerini değiştirin
-    title: "Sürdürülebilirlik ve Çevre Dostu Ürünler",
-    description:
-      "Üretimlerinde sürdürülebilirlik ve çevre dostu ürünler kullanarak, müşterilerine yüksek kaliteli ve güvenilir ürünler sunmaktadır.",
-    buttonText: "Keşvet",
+    image: slider2,
+    titleKey: "slider.1.title",
+    descriptionKey: "slider.1.description",
+    buttonKey: "slider.1.buttonText",
   },
   {
-    image: slider3, // Görsel URL'lerini değiştirin
-    title:
-      "Contra Corporate, Azerbaycan'da ve Kafkasya bölgesinde ilk motor ve endüstriyel yağ üreticisi olan Technol ile çalışmaktadır.",
-    description:
-      "Günlük 140 ton, yıllık 50 bin ton üretim kapasitesine sahip Technol şirketinde, üretim sürecinin düzenlenmesi amacıyla Alman yapımı ekipmanlar kurulmuş ve üretim sürecinin tamamen otomasyonu gerçekleştirilmiştir.",
-    buttonText: "Keşvet",
+    image: slider3,
+    titleKey: "slider.2.title",
+    descriptionKey: "slider.2.description",
+    buttonKey: "slider.2.buttonText",
   },
 ];
 
 const FullPageHomeSlider: React.FC = () => {
+  const { t } = useTranslation();
+
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -68,7 +68,7 @@ const FullPageHomeSlider: React.FC = () => {
                 padding: "20px",
               }}
             >
-              <h1 className="cg-slider-heading">{slide.title}</h1>
+              <h1 className="cg-slider-heading">{t(slide.titleKey)}</h1>
               <p
                 className="cg-slider-desc"
                 style={{
@@ -77,7 +77,7 @@ const FullPageHomeSlider: React.FC = () => {
                   margin: "20px 0",
                 }}
               >
-                {slide.description}
+                {t(slide.descriptionKey)}
               </p>
               {/* <button
                 style={{
@@ -90,7 +90,7 @@ const FullPageHomeSlider: React.FC = () => {
                   fontSize: "1rem",
                 }}
               >
-                {slide.buttonText}
+                {t(slide.buttonKey)}
               </button> */}
             </div>
           </div>
