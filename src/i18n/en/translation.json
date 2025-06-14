@@ -145,28 +145,28 @@
     "p5": "Our bold strides in R&D and defense manufacturing represent more than just success stories—they are strategic initiatives for our country's development."
     }
   },
-   "contact": {
-    "title": "Bize Ulaşın",
+    "contact": {
+    "title": "Contact Us",
     "form": {
-      "name": "Ad / Soyad*",
-      "phone": "Telefon*",
-      "company": "Şirket",
-      "email": "E-posta adresi*",
-      "address": "Adres",
-      "city": "Şehir*",
-      "post_code": "Posta Kodu",
-      "country": "Ülke*",
-      "message": "Mesaj*",
-      "submit": "Gönder"
+      "name": "Name / Surname*",
+      "phone": "Phone*",
+      "company": "Company",
+      "email": "Email address*",
+      "address": "Address",
+      "city": "City*",
+      "post_code": "Postal Code",
+      "country": "Country*",
+      "message": "Message*",
+      "submit": "Send"
     },
     "info": {
-      "company_name": "Contra Group Petrol Madeni Yağ Ticaret A.Ş.",
-      "address": "Maliköy Başkent OSB mah. 20.Cad. No: 12G Sincan/Ankara/Türkiye",
+      "company_name": "Contra Group Petroleum Lubricants Trading Inc.",
+      "address": "Maliköy Başkent OSB mah. 20.Cad. No: 12G Sincan/Ankara/Turkey",
       "phone": "+(90) 532 054 05 84",
       "email": "executive@contracorporate.com"
     },
     "toast": {
-      "success": "Mesajınız Gönderildi"
+      "success": "Your message has been sent"
     }
   }
 
