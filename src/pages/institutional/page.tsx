@@ -10,7 +10,7 @@ const Institutional = () => {
     <Container>
       <div className="cg-institutional-page">
         <h1 className="cg-part-title mt-3">{t('institutional.title')}</h1>
-        {t("institutional.paragraphs", { returnObjects: true }).map((p: string, idx: number) => (
+        {(t("institutional.paragraphs", { returnObjects: true }) as string[]).map((p: string, idx: number) => (
           <p key={idx} className="mb-3">
             <span className="cg-mobile-d-none">&nbsp;&nbsp;&nbsp;&nbsp;</span>
             {p}
