@@ -124,10 +124,7 @@ const page = () => {
                 <FaPhone className="cg-color-red" />
                 <a href="tel:+905320540584">+(90) 532 054 05 84</a>
               </div>
-              {/* <div className="cg-contact-info-icon-container">
-                <i className="fa-solid fa-print"></i>
-                <p>+90 (264) 666 1910</p>
-              </div> */}
+           
               <div className="cg-contact-info-icon-container">
                 <FaEnvelope className="cg-color-red" />
 
@@ -135,38 +132,6 @@ const page = () => {
                   executive@contracorporate.com
                 </a>
               </div>
-              {/* <p className="cg-contact-info-text cg-contact-info-step">
-                İhracat ve İthalat
-              </p>
-              <div className="cg-contact-info-icon-container">
-                <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:atilla@demirellerkardan.com.tr">
-                  atilla@demirellerkardan.com.tr
-                </a>
-              </div>
-              <p className="cg-contact-info-text">
-                Yurtiçi Satış / Satın Alma / İnsan Kaynakları
-              </p>
-              <div className="cg-contact-info-icon-container">
-                <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:muammer@demirellerkardan.com.tr">
-                  muammer@demirellerkardan.com.tr
-                </a>
-              </div>
-              <p className="cg-contact-info-text">Kalite / Lojistik</p>
-              <div className="cg-contact-info-icon-container">
-                <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:murat@demirellerkardan.com.tr">
-                  murat@demirellerkardan.com.tr
-                </a>
-              </div>
-              <p className="cg-contact-info-text">Muhasebe</p>
-              <div className="cg-contact-info-icon-container">
-                <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:muhasebe@demirellerkardan.com.tr">
-                  muhasebe@demirellerkardan.com.tr
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
