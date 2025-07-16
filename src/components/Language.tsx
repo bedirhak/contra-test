@@ -19,13 +19,13 @@ const Language = () => {
       >
         EN
       </button>
-      <button
+      {/* <button
         className={`language-button ${i18n.language === 'ru' ? 'active' : ''}`}
         onClick={() => i18n.changeLanguage('ru')}
         title="Русский"
       >
         RU
-      </button>
+      </button> */}
       <button
         className={`language-button ${i18n.language === 'zh' ? 'active' : ''}`}
         onClick={() => i18n.changeLanguage('zh')}

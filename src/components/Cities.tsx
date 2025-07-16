@@ -2,11 +2,11 @@ import WorldMap from "react-svg-worldmap";
 import { useTranslation } from "react-i18next";
 
 const Cities = () => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
 
   const data = [
-    { country: "ru", value: "- Moskova & St. Petersburg" }, // russia
+    // { country: "ru", value: "- Moskova & St. Petersburg" }, // russia
     { country: "tr", value: "- İstanbul & Ankara" }, // turkey
     { country: "az", value: "- Bakü" }, // azerbaijan
     { country: "my", value: "- Kuala Lumpur" }, // malaysia
